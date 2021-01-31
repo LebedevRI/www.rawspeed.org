@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Reference Sample Archive &mdash; RawSpeed  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Integration Testing" href="IntegrationTesting.html" />
+    <link rel="prev" title="Camera Support" href="CameraSupport.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> RawSpeed
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome to RawSpeed’s documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CameraSupport.html">Camera Support</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reference Sample Archive</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-considered-a-sample-set">What is considered a sample set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canonical-sample-set">Canonical Sample Set</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#full-sample-set">Full sample set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#masterset">Masterset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#acquiring-canonical-sample-set">Acquiring Canonical Sample Set</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="IntegrationTesting.html">Integration Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Doxygen.html">Doxygen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lnt/index.html">LLVM LNT / Test-Suite Integration</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RawSpeed</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Reference Sample Archive</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ReferenceSampleArchive.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="reference-sample-archive">
+<span id="rsa"></span><h1>Reference Sample Archive<a class="headerlink" href="#reference-sample-archive" title="Permalink to this headline">¶</a></h1>
+<p>While there is some test coverage via unit tests, the major bulk of testing
+is achieved via integration tests over some sample set.</p>
+<div class="section" id="what-is-considered-a-sample-set">
+<span id="sampleset"></span><h2>What is considered a sample set<a class="headerlink" href="#what-is-considered-a-sample-set" title="Permalink to this headline">¶</a></h2>
+<p>Here and onwards, a sample set is just a directory with samples, and two special
+files. There should be a <code class="docutils literal notranslate"><span class="pre">timestamp.txt</span></code> containing an
+<a class="reference external" href="https://en.wikipedia.org/wiki/Unix_time">Unix time</a> (presumably, of when the set was last updated).
+Most importantly, it <strong>must</strong> also contain <code class="docutils literal notranslate"><span class="pre">filelist.sha1</span></code> file in the
+top-level directory, which is used as a digest to the contents of said sample
+set. Said file <strong>must</strong> be a valid <a class="reference external" href="https://manpages.debian.org/unstable/coreutils/sha1sum.1.en.html">sha1sum</a> output, with format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="mi">40</span><span class="o">-</span><span class="n">char</span> <span class="n">SHA1</span><span class="o">&gt;&lt;</span><span class="n">space</span><span class="o">&gt;&lt;</span><span class="n">asterisk</span><span class="o">&gt;&lt;</span><span class="n">filename</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="canonical-sample-set">
+<h2>Canonical Sample Set<a class="headerlink" href="#canonical-sample-set" title="Permalink to this headline">¶</a></h2>
+<p>The canonical raw sample data set is <a class="reference external" href="https://raw.pixls.us/">raw.pixls.us</a>.
+It is freely licensed - all new samples are in Public Domain under
+<a class="reference external" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> license (85+% of samples and counting),
+however some older samples are still under more restrictive
+<a class="reference external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.</p>
+<p><strong>Please read</strong> <a class="reference external" href="https://discuss.pixls.us/t/raw-samples-wanted/5420?u=lebedevri">this</a> <strong>for more info on how to contribute samples!</strong></p>
+<div class="section" id="full-sample-set">
+<h3>Full sample set<a class="headerlink" href="#full-sample-set" title="Permalink to this headline">¶</a></h3>
+<p>The complete set, that includes every sample available, and thus has as good
+coverage as we can get, but as downside it is <em>quite</em> bulky - <img alt="rpu-button-size" src="https://raw.pixls.us/button-size.svg" />
+total, spanning <a class="reference external" href="https://raw.pixls.us/"><img alt="rpu-button-samples" src="https://raw.pixls.us/button-samples.svg" /></a>.</p>
+<p>It is accessible at: <a class="reference external" href="https://raw.pixls.us/data/">https://raw.pixls.us/data/</a></p>
+</div>
+<div class="section" id="masterset">
+<h3>Masterset<a class="headerlink" href="#masterset" title="Permalink to this headline">¶</a></h3>
+<p>But there is also a masterset, with just a handful hand-picked samples that
+provide reasonable-ish coverage while spanning only ~ <span class="math notranslate nohighlight">\(1/22\)</span>’th of the
+disk footprint and ~ <span class="math notranslate nohighlight">\(1/44\)</span> sample count of the full set.</p>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Unless you want to perform rigorous regression testing
+the masterset is strongly recommended!</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Masterset <strong>only</strong> contains samples that are in <a class="reference external" href="https://creativecommons.org/publicdomain/zero/1.0/">public domain</a>.</p>
+</div>
+<p>It is accessible at: <a class="reference external" href="https://raw.pixls.us/data-unique/">https://raw.pixls.us/data-unique/</a></p>
+</div>
+<div class="section" id="acquiring-canonical-sample-set">
+<span id="rpu-rsync"></span><h3>Acquiring Canonical Sample Set<a class="headerlink" href="#acquiring-canonical-sample-set" title="Permalink to this headline">¶</a></h3>
+<p>Pick which sample set you will want to acquire. Be wary of disk footprint!
+Probably the easiest way to fetch it is via <a class="reference external" href="https://manpages.debian.org/unstable/rsync/rsync.1.en.html">rsync</a>, for example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ rsync -vvrLtW --preallocate --delete --compress --compress-level=1 --progress \
+        rsync://raw.pixls.us/data-unique/ ~/raw-camera-samples/raw.pixls.us-unique/
+$ # it might be a good idea to verify consistency afterwards:
+$ sha1sum -c --strict ~/raw-camera-samples/raw.pixls.us-unique/filelist.sha1
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="IntegrationTesting.html" class="btn btn-neutral float-right" title="Integration Testing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="CameraSupport.html" class="btn btn-neutral float-left" title="Camera Support" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2009-2016 Klaus Post, 2016-2019 Roman Lebedev
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

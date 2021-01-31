@@ -1,0 +1,34 @@
+<map id="rawspeed::RawImage::RawImage" name="rawspeed::RawImage::RawImage">
+<area shape="rect" id="node1" title=" " alt="" coords="921,700,1084,741"/>
+<area shape="rect" id="node2" href="$d4/d03/classrawspeed_1_1_abstract_l_jpeg_decompressor.html#af76f70a59a14657a13c9c495ee0d7e62" title=" " alt="" coords="569,161,845,203"/>
+<area shape="rect" id="node11" href="$d5/d18/classrawspeed_1_1_abstract_samsung_decompressor.html#a89b1745891791d2d104e3e665a9a1b6b" title=" " alt="" coords="541,227,873,268"/>
+<area shape="rect" id="node12" href="$de/d70/classrawspeed_1_1_crw_decompressor.html#a16b8f8f8ff89abbb8a29c335e82625a8" title=" " alt="" coords="601,292,813,333"/>
+<area shape="rect" id="node14" href="$de/d5f/classrawspeed_1_1_fuji_decompressor.html#abcbbb2d1df6a5e2cb8fd423386741b62" title=" " alt="" coords="603,381,812,423"/>
+<area shape="rect" id="node16" href="$d3/dfe/classrawspeed_1_1_kodak_decompressor.html#af4fb7c8286921882ccc2ef96b328fcdf" title=" " alt="" coords="594,471,821,512"/>
+<area shape="rect" id="node18" href="$df/d02/classrawspeed_1_1_nikon_decompressor.html#aadcbaa5c0d35f98f7b7290fa751aba0d" title=" " alt="" coords="595,536,820,577"/>
+<area shape="rect" id="node19" href="$d2/dde/classrawspeed_1_1_olympus_decompressor.html#a3c4719bae77da394875cee46852037e8" title=" " alt="" coords="585,601,830,643"/>
+<area shape="rect" id="node20" href="$dd/d12/classrawspeed_1_1_raw_image.html#acd3d39543e51c873f84873f7d2d9bd91" title=" " alt="" coords="626,667,789,708"/>
+<area shape="rect" id="node21" href="$d8/d43/classrawspeed_1_1_panasonic_decompressor_v4.html#a32c1a74b56307e0cca5131e98e9c335d" title=" " alt="" coords="581,732,833,773"/>
+<area shape="rect" id="node22" href="$db/db3/classrawspeed_1_1_panasonic_decompressor_v5.html#a35f58e93a7d9019a89a5e97e8b55d8ad" title=" " alt="" coords="581,797,833,839"/>
+<area shape="rect" id="node23" href="$dc/d93/classrawspeed_1_1_panasonic_decompressor_v6.html#a7764fc783e5cc66624df26931451dcb3" title=" " alt="" coords="581,863,833,904"/>
+<area shape="rect" id="node25" href="$d5/df3/classrawspeed_1_1_pentax_decompressor.html#aa2effabef0955b11c44ca4e982534384" title=" " alt="" coords="591,952,823,993"/>
+<area shape="rect" id="node27" href="$d2/dde/classrawspeed_1_1_phase_one_decompressor.html#a7c88e0ed7d038436b8943c6013203dc8" title=" " alt="" coords="581,1041,833,1083"/>
+<area shape="rect" id="node28" href="$d1/d31/classrawspeed_1_1_sony_arw1_decompressor.html#a507d4c7a332af199a6ef591af536be4c" title=" " alt="" coords="581,1107,833,1148"/>
+<area shape="rect" id="node30" href="$d8/d01/classrawspeed_1_1_sony_arw2_decompressor.html#aa6e5e2bca7bcdaad68d59d21903ec00f" title=" " alt="" coords="581,1172,833,1213"/>
+<area shape="rect" id="node32" href="$df/d0d/classrawspeed_1_1_v_c5_decompressor.html#ae7a64bf4883caa4f86d4f166e0de999d" title=" " alt="" coords="601,1261,814,1303"/>
+<area shape="rect" id="node3" href="$d3/d55/classrawspeed_1_1_cr2_decompressor.html#a52102d5b2f25b6b53d7117e084ccc2d4" title=" " alt="" coords="259,5,469,47"/>
+<area shape="rect" id="node5" href="$dc/db5/classanonymous__namespace_02_dummy_l_jpeg_decompressor_8cpp_03_1_1_dummy_l_jpeg_decompressor.html#a9dc3368ebc0e77593417029f9c50e399" title=" " alt="" coords="239,71,489,141"/>
+<area shape="rect" id="node7" href="$d3/d6d/classrawspeed_1_1_hasselblad_decompressor.html#af7566e3b5ef004f1dcb3e56154cbd62f" title=" " alt="" coords="235,165,493,207"/>
+<area shape="rect" id="node9" href="$d7/d6d/classrawspeed_1_1_l_jpeg_decompressor.html#a2b7b34c1a02ebea91be198950d140764" title=" " alt="" coords="253,231,475,272"/>
+<area shape="rect" id="node4" href="$dc/dfc/fuzz_2librawspeed_2decompressors_2_cr2_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="5,13,187,39"/>
+<area shape="rect" id="node6" href="$d2/dc6/_dummy_l_jpeg_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="5,93,187,119"/>
+<area shape="rect" id="node8" href="$dc/dcd/fuzz_2librawspeed_2decompressors_2_hasselblad_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="5,173,187,199"/>
+<area shape="rect" id="node10" href="$db/d3f/fuzz_2librawspeed_2decompressors_2_l_jpeg_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="5,238,187,265"/>
+<area shape="rect" id="node13" href="$de/da7/fuzz_2librawspeed_2decompressors_2_crw_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,299,455,326"/>
+<area shape="rect" id="node15" href="$da/d77/fuzz_2librawspeed_2decompressors_2_fuji_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,389,455,415"/>
+<area shape="rect" id="node17" href="$d4/dec/fuzz_2librawspeed_2decompressors_2_kodak_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,478,455,505"/>
+<area shape="rect" id="node24" href="$d1/df7/fuzz_2librawspeed_2decompressors_2_panasonic_decompressor_v6_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,870,455,897"/>
+<area shape="rect" id="node26" href="$d5/def/fuzz_2librawspeed_2decompressors_2_pentax_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,959,455,986"/>
+<area shape="rect" id="node29" href="$d8/d94/fuzz_2librawspeed_2decompressors_2_sony_arw1_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,1114,455,1141"/>
+<area shape="rect" id="node31" href="$db/dee/fuzz_2librawspeed_2decompressors_2_sony_arw2_decompressor_8cpp.html#a1c473c9665269a78ef9001573a6995df" title=" " alt="" coords="273,1179,455,1206"/>
+</map>
