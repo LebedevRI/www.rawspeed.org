@@ -1,0 +1,347 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Integration Testing &mdash; RawSpeed  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Doxygen" href="Doxygen.html" />
+    <link rel="prev" title="Reference Sample Archive" href="ReferenceSampleArchive.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> RawSpeed
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome to RawSpeed’s documentation!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CameraSupport.html">Camera Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReferenceSampleArchive.html">Reference Sample Archive</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Integration Testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#producing-trusted-reference-hashes">Producing Trusted reference Hashes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#specifying-location-of-reference-sample-archive">Specifying location of Reference Sample Archive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-required-cmake-flags">Other required CMake flags</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#producing-hashes">Producing hashes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#performing-integration-testing">Performing Integration Testing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Doxygen.html">Doxygen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lnt/index.html">LLVM LNT / Test-Suite Integration</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RawSpeed</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Integration Testing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/IntegrationTesting.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="integration-testing">
+<span id="id1"></span><h1>Integration Testing<a class="headerlink" href="#integration-testing" title="Permalink to this headline">¶</a></h1>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="ReferenceSampleArchive.html#rsa"><span class="std std-ref">Reference Sample Archive</span></a></p>
+</div>
+<p>As a first step, you <em>need</em> to acquire the sample archive you will want to use,
+see e.g. <a class="reference internal" href="ReferenceSampleArchive.html#rpu-rsync"><span class="std std-ref">Acquiring Canonical Sample Set</span></a>.</p>
+<p>Due to the specifics of the the domain, just having the samples you want to use
+for integration testing is not sufficient. Given <em>just</em> the samples, it is not
+possible to verify anything in an automatic manner.</p>
+<p>You can, of course, load the samples into some software that uses the
+<a class="reference external" href="https://github.com/darktable-org/rawspeed">RawSpeed</a> library, for example into <a class="reference external" href="https://github.com/darktable-org/darktable">darktable</a>, and see that they
+decoded into some meaningful image, but that is indirect and tests much more
+than just the library.</p>
+<p>So instead, we want to document (record, called <cite>a hash</cite> onwards) how the
+samples decode ‘currently’ (in a trusted, known-good hardware/software/compiler
+stack/compilation options etc), store this per-image info, and then just check
+against it afterwards (after modifying the library, or anything else really).</p>
+<div class="section" id="producing-trusted-reference-hashes">
+<span id="id2"></span><h2>Producing Trusted reference Hashes<a class="headerlink" href="#producing-trusted-reference-hashes" title="Permalink to this headline">¶</a></h2>
+<p>Optionally, it may or may not be a good idea to first manually inspect the
+samples (via e.g. <a class="reference external" href="https://github.com/darktable-org/darktable">darktable</a>), make a note which are seemingly currently decoded
+correctly, and which are not.</p>
+<p>For best results the Trusted Hashes should be produced in most mundane
+environment - stable mainstream hardware (little-endian, x86; no overclocking),
+stable software stack, and most importantly a trusted compiler. You also
+shouldn’t use <code class="docutils literal notranslate"><span class="pre">-Oomg-optimize</span> <span class="pre">-fmoar-performance</span></code> compilation flags for this.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Trusted baseline hashes are a the very foundation for any further integration
+testing. It is always important to have good, stable foundation. It will not
+be productive if those hashes are produced incorrectly, be it either because
+the hardware is faulty (RAM/disk bit flips), or the library was miscompiled.</p>
+</div>
+<p>Other than that, generating said hashes is pretty trivial.</p>
+<div class="section" id="specifying-location-of-reference-sample-archive">
+<h3>Specifying location of Reference Sample Archive<a class="headerlink" href="#specifying-location-of-reference-sample-archive" title="Permalink to this headline">¶</a></h3>
+<p>In order to make use of build system integration of integration testing,
+we must first tell it where the <a class="reference internal" href="ReferenceSampleArchive.html#sampleset"><span class="std std-ref">sample set</span></a> is located,
+for example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cmake -DRAWSPEED_ENABLE_SAMPLE_BASED_TESTING:BOOL=ON \
+        -DRAWSPEED_REFERENCE_SAMPLE_ARCHIVE:PATH=&quot;~/raw-camera-samples/raw.pixls.us-unique/&quot; \
+        &lt;path to rawspeed repo checkout&gt;
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The location of the samples must be writable if you intend to produce hashes.</p>
+</div>
+</div>
+<div class="section" id="other-required-cmake-flags">
+<h3>Other required CMake flags<a class="headerlink" href="#other-required-cmake-flags" title="Permalink to this headline">¶</a></h3>
+<p>We also need to build the code that is actually responsible for these
+integration tests:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cmake -DBUILD_TOOLS:BOOL=ON \
+        &lt;path to rawspeed repo checkout&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="producing-hashes">
+<h3>Producing hashes<a class="headerlink" href="#producing-hashes" title="Permalink to this headline">¶</a></h3>
+<p>After that is done, we can finally create the hashes, and for that there is
+a <code class="docutils literal notranslate"><span class="pre">rstest-create</span></code> build target:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cmake --build . -- rstest-clean # get rid of any pre-existing hashes, just in case.
+[1/1] Running utility command for rstest-clean
+$ cmake --build . -- rstest-create
+&lt;maybe actually building library&#39;s sources and rstest if you didn&#39;t build it yet&gt;
+[0/1] Running utility command for rstest-create
+&lt;full path to a sample&gt;: starting decoding ...
+&lt;full path to a sample&gt;:  &lt;&gt; MB / &lt;&gt; ms
+
+Total decoding time: &lt;&gt;s
+
+All good, all hashes created!
+</pre></div>
+</div>
+<p>And that’s it, we’ve got the hashes! They were placed next to the samples in
+the archive, with <code class="docutils literal notranslate"><span class="pre">.hash</span></code> suffix appended. Maybe you want to use some kind of
+layered file system (<a class="reference external" href="https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt">overlayfs</a> e.g.) to separate those from the actual samples,
+up to you.</p>
+</div>
+</div>
+<div class="section" id="performing-integration-testing">
+<h2>Performing Integration Testing<a class="headerlink" href="#performing-integration-testing" title="Permalink to this headline">¶</a></h2>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last">Do ensure that the library is actually re-compiled with the changes you want
+to test. To err on the safe side, sometimes it is useful to remove the entire
+build directory and make a fresh build!</p>
+</div>
+<p>After you have performed the changes you wanted to - modified the library,
+or changed hardware/software/compiler/compiler flags - and you want to validate
+that those changes did not cause any regressions in the sample set, it is time
+to actually make use of the Trusted Reference Hashes that we have created
+previously.</p>
+<p>For that, there is a <code class="docutils literal notranslate"><span class="pre">rstest-test</span></code> build target.
+If everything is good you may see:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cmake --build . -- rstest-test
+[0/1] Running utility command for rstest-test
+&lt;full path to a sample&gt;: starting decoding ...
+&lt;full path to a sample&gt;:  &lt;&gt; MB / &lt;&gt; ms
+Total decoding time: &lt;&gt;s
+
+All good, no tests failed!
+</pre></div>
+</div>
+<p>Or, if there are issues, you may see:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cmake --build . -- rstest-test
+[0/1] Running utility command for rstest-test
+&lt;full path to a sample&gt;: starting decoding ...
+&lt;full path to a sample&gt;:  &lt;&gt; MB / &lt;&gt; ms
+&lt;full path to a sample&gt; failed: hash/metadata mismatch
+Total decoding time: &lt;&gt;s
+
+WARNING: the following &lt;&gt; tests have failed:
+&lt;full path to a sample&gt; failed: hash/metadata mismatch
+See rstest.log for details.
+&lt;...&gt;
+ninja: build stopped: subcommand failed.
+</pre></div>
+</div>
+<p>Unless the process crashed, it should have created
+<code class="docutils literal notranslate"><span class="pre">&lt;full</span> <span class="pre">path</span> <span class="pre">to</span> <span class="pre">a</span> <span class="pre">sample&gt;.hash.failed</span></code>, and outputted the <a class="reference external" href="https://manpages.debian.org/unstable/diffutils/diff.1.en.html">diff</a> between
+the existing <code class="docutils literal notranslate"><span class="pre">&lt;full</span> <span class="pre">path</span> <span class="pre">to</span> <span class="pre">a</span> <span class="pre">sample&gt;.hash</span></code> Trusted Hash and the actual result
+<code class="docutils literal notranslate"><span class="pre">&lt;full</span> <span class="pre">path</span> <span class="pre">to</span> <span class="pre">a</span> <span class="pre">sample&gt;.hash.failed</span></code> into <code class="docutils literal notranslate"><span class="pre">rstest.log</span></code> file in root of the
+build dir.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="lnt/index.html#lnt"><span class="std std-ref">LLVM LNT / Test-Suite Integration</span></a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Doxygen.html" class="btn btn-neutral float-right" title="Doxygen" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ReferenceSampleArchive.html" class="btn btn-neutral float-left" title="Reference Sample Archive" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2009-2016 Klaus Post, 2016-2019 Roman Lebedev
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

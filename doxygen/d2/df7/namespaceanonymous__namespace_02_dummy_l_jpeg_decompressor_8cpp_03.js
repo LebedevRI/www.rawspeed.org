@@ -1,0 +1,4 @@
+var namespaceanonymous__namespace_02_dummy_l_jpeg_decompressor_8cpp_03 =
+[
+    [ "DummyLJpegDecompressor", "dc/db5/classanonymous__namespace_02_dummy_l_jpeg_decompressor_8cpp_03_1_1_dummy_l_jpeg_decompressor.html", "dc/db5/classanonymous__namespace_02_dummy_l_jpeg_decompressor_8cpp_03_1_1_dummy_l_jpeg_decompressor" ]
+];

@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['b0_3988',['B0',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958ae1b5965d01f01302d6239bc4d0daa1e9',1,'rawspeed::FujiDecompressor']]],
+  ['b1_3989',['B1',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958af189b92cf5de17bb3e083d8542726e66',1,'rawspeed::FujiDecompressor']]],
+  ['b2_3990',['B2',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958aea23c5d4aef5f7d02b0e72c9d2d8a572',1,'rawspeed::FujiDecompressor']]],
+  ['b3_3991',['B3',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958ac1db13419ed1ed01520b10b112bf4f5c',1,'rawspeed::FujiDecompressor']]],
+  ['b4_3992',['B4',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958aa2fd0f08fdff0ed282c4c79c56c22466',1,'rawspeed::FujiDecompressor']]],
+  ['baselineexposure_3993',['BASELINEEXPOSURE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a0ad54f2d39adc6944ddc2fefa462a92a',1,'rawspeed']]],
+  ['baselinenoise_3994',['BASELINENOISE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a68c7bfde3336c761e32cdf47459274bb',1,'rawspeed']]],
+  ['baselinesharpness_3995',['BASELINESHARPNESS',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a347601400a8e94b87823154483207824',1,'rawspeed']]],
+  ['batterylevel_3996',['BATTERYLEVEL',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ae3e2989d11722d6ddf8770acfc605bed',1,'rawspeed']]],
+  ['bayergreespit_3997',['BAYERGREESPIT',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ac17141e0a0a6c1f4ab645acea1ff2ddc',1,'rawspeed']]],
+  ['bestqualityscale_3998',['BESTQUALITYSCALE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ad291244db84e35c2f7f8fa3054c850e1',1,'rawspeed']]],
+  ['big_3999',['big',['../de/dc3/namespacerawspeed.html#ac58990afa29e868ed572753b8167d07dad861877da56b8b4ceb35c8cbfdf65bb4',1,'rawspeed']]],
+  ['bitspersample_4000',['BITSPERSAMPLE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472aed71d318a82958c5710960ae8e4ef0a0',1,'rawspeed']]],
+  ['blacklevel_4001',['BLACKLEVEL',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a0d33d5356e29f811500502530ffac854',1,'rawspeed']]],
+  ['blackleveldeltah_4002',['BLACKLEVELDELTAH',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ac3df6a96e367e96f913407bcf9d9aace',1,'rawspeed']]],
+  ['blackleveldeltav_4003',['BLACKLEVELDELTAV',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ab14da2b3d39691f147ed82d6a3f6010e',1,'rawspeed']]],
+  ['blacklevelrepeatdim_4004',['BLACKLEVELREPEATDIM',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ad06bd4b21933a4b090aebdd043278042',1,'rawspeed']]],
+  ['branch_4005',['Branch',['../df/d9b/structrawspeed_1_1_binary_huffman_tree_1_1_node.html#a74c7baa4580025405fc5cb6ac6682d57adacdb83ade6c4e8878717e206175dfd8',1,'rawspeed::BinaryHuffmanTree::Node']]],
+  ['brightnessvalue_4006',['BRIGHTNESSVALUE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472aff2412a65581685e12b9593234d27a63',1,'rawspeed']]]
+];

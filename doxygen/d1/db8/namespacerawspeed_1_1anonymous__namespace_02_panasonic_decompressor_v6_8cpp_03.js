@@ -1,0 +1,4 @@
+var namespacerawspeed_1_1anonymous__namespace_02_panasonic_decompressor_v6_8cpp_03 =
+[
+    [ "pana_cs6_page_decoder", "d1/dc6/structrawspeed_1_1anonymous__namespace_02_panasonic_decompressor_v6_8cpp_03_1_1pana__cs6__page__decoder.html", "d1/dc6/structrawspeed_1_1anonymous__namespace_02_panasonic_decompressor_v6_8cpp_03_1_1pana__cs6__page__decoder" ]
+];

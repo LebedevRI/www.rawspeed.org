@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['imagedescription_4142',['IMAGEDESCRIPTION',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472abd5ade8f1967ad95e557786fd5a024af',1,'rawspeed']]],
+  ['imageformat_4143',['ImageFormat',['../de/dc3/namespacerawspeed.html#ac380f0c001f887c1046c49292d76346ea40e2de9bc6dd84d6779bd165d5659fd1',1,'rawspeed']]],
+  ['imageheight_4144',['ImageHeight',['../de/dc3/namespacerawspeed.html#ac380f0c001f887c1046c49292d76346ea65962fa58af4e9126da767c6b2960dc0',1,'rawspeed']]],
+  ['imagehistory_4145',['IMAGEHISTORY',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a7ff8a9d30c56acca7388d4fecb0e3f6f',1,'rawspeed']]],
+  ['imagelength_4146',['IMAGELENGTH',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a36dbd8480a4d24a9f7dbafd9aef37462',1,'rawspeed']]],
+  ['imagename_4147',['IMAGENAME',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a1439f3a7c1dbbbb1f70007b058360488',1,'rawspeed']]],
+  ['imageuniqueid_4148',['IMAGEUNIQUEID',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a1e404cbc06e3670da87fa274204edc82',1,'rawspeed']]],
+  ['imagewidth_4149',['IMAGEWIDTH',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a739833b6f2eb7e29d88126ebad164fcf',1,'rawspeed::IMAGEWIDTH()'],['../de/dc3/namespacerawspeed.html#ac380f0c001f887c1046c49292d76346ea2b338d127c66bb3101680dd17f5b1ca6',1,'rawspeed::ImageWidth()']]],
+  ['inknames_4150',['INKNAMES',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a489ccd8ac4f4ee4d68b6179f370620b6',1,'rawspeed']]],
+  ['inkset_4151',['INKSET',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a5f24ee93f24cf80a513c1423068e8ee3',1,'rawspeed']]],
+  ['intercolorprofile_4152',['INTERCOLORPROFILE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a5d8b102a7ebb1828af4ce329855e2da3',1,'rawspeed']]],
+  ['interoperabilityifdpointer_4153',['INTEROPERABILITYIFDPOINTER',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ab58742f71d2218691b1047008f80bfa5',1,'rawspeed']]],
+  ['interoperabilityindex_4154',['INTEROPERABILITYINDEX',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a255035cfc4fd3babb63d7dcac19383d8',1,'rawspeed']]],
+  ['interoperabilityversion_4155',['INTEROPERABILITYVERSION',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a75a235dd7dd71ae707b25747317821f7',1,'rawspeed']]],
+  ['iptcnaa_4156',['IPTCNAA',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472acff1f33f672d5f4ea5fc16c90be329a4',1,'rawspeed']]],
+  ['isospeedratings_4157',['ISOSPEEDRATINGS',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ae2671e810d6479394fdd239ff7015a8e',1,'rawspeed']]]
+];

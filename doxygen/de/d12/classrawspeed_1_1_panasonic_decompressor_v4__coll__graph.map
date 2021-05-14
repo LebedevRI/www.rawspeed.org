@@ -1,0 +1,45 @@
+<map id="rawspeed::PanasonicDecompressorV4" name="rawspeed::PanasonicDecompressorV4">
+<area shape="rect" id="node1" title=" " alt="" coords="2831,573,3100,600"/>
+<area shape="rect" id="node2" href="$d9/d57/classrawspeed_1_1_abstract_decompressor.html" title=" " alt="" coords="2495,47,2736,73"/>
+<area shape="rect" id="node3" href="$dd/d12/classrawspeed_1_1_raw_image.html" title=" " alt="" coords="2308,573,2471,600"/>
+<area shape="rect" id="node4" href="$dc/d44/classrawspeed_1_1_raw_image_data.html" title=" " alt="" coords="1771,573,1964,600"/>
+<area shape="rect" id="node5" href="$d6/d92/classrawspeed_1_1_error_log.html" title=" " alt="" coords="1447,455,1594,481"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1089,399,1151,425"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1422,261,1619,302"/>
+<area shape="rect" id="node8" href="$db/d1a/classrawspeed_1_1_table_look_up.html" title=" " alt="" coords="1032,261,1208,288"/>
+<area shape="rect" id="node9" title=" " alt="" coords="607,256,782,283"/>
+<area shape="rect" id="node10" href="$d5/df4/classuint16__t.html" title=" " alt="" coords="287,220,362,247"/>
+<area shape="rect" id="node11" title="STL class." alt="" coords="260,307,389,333"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1436,506,1605,547"/>
+<area shape="rect" id="node33" title=" " alt="" coords="605,1209,784,1236"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2512,743,2719,799"/>
+<area shape="rect" id="node12" title=" " alt="" coords="55,213,94,240"/>
+<area shape="rect" id="node15" title="STL class." alt="" coords="420,32,577,59"/>
+<area shape="rect" id="node27" title="STL class." alt="" coords="263,119,386,145"/>
+<area shape="rect" id="node31" title="STL class." alt="" coords="257,1324,392,1351"/>
+<area shape="rect" id="node13" title=" " alt="" coords="675,148,714,175"/>
+<area shape="rect" id="node19" href="$dc/d97/classrawspeed_1_1_image_meta_data.html" title=" " alt="" coords="1021,517,1219,544"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1047,73,1193,100"/>
+<area shape="rect" id="node14" title=" " alt="" coords="669,813,720,840"/>
+<area shape="rect" id="node17" href="$d8/d30/classrawspeed_1_1_black_area.html" title=" " alt="" coords="1041,692,1199,719"/>
+<area shape="rect" id="node41" href="$d3/dca/classrawspeed_1_1_buffer.html" title=" " alt="" coords="1054,937,1186,964"/>
+<area shape="rect" id="node18" href="$d3/d87/classuint32__t.html" title=" " alt="" coords="657,663,732,689"/>
+<area shape="rect" id="node28" href="$d2/d4f/classrawspeed_1_1_color_filter_array.html" title=" " alt="" coords="1023,1183,1217,1209"/>
+<area shape="rect" id="node20" href="$df/de6/classdouble.html" title=" " alt="" coords="661,377,728,404"/>
+<area shape="rect" id="node21" href="$d8/d75/classrawspeed_1_1i_point2_d.html" title=" " alt="" coords="621,1155,769,1181"/>
+<area shape="rect" id="node38" href="$d3/d8c/structrawspeed_1_1_panasonic_decompressor_v4_1_1_block.html" title=" " alt="" coords="2032,1066,2284,1107"/>
+<area shape="rect" id="node22" href="$de/d73/classint32__t.html" title=" " alt="" coords="291,1119,358,1145"/>
+<area shape="rect" id="node23" title="STL class." alt="" coords="281,792,368,819"/>
+<area shape="rect" id="node29" title=" " alt="" coords="617,1301,773,1342"/>
+<area shape="rect" id="node24" title="STL class." alt="" coords="5,785,144,826"/>
+<area shape="rect" id="node25" title=" " alt="" coords="615,199,774,225"/>
+<area shape="rect" id="node26" href="$d4/dc3/classfloat.html" title=" " alt="" coords="299,169,350,196"/>
+<area shape="rect" id="node30" title=" " alt="" coords="285,1231,365,1257"/>
+<area shape="rect" id="node32" title=" " alt="" coords="55,1324,94,1351"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1460,685,1581,712"/>
+<area shape="rect" id="node36" title=" " alt="" coords="661,1091,728,1117"/>
+<area shape="rect" id="node39" href="$dd/da0/classrawspeed_1_1_byte_stream.html" title=" " alt="" coords="1782,1132,1953,1159"/>
+<area shape="rect" id="node40" href="$d1/dd4/classrawspeed_1_1_data_buffer.html" title=" " alt="" coords="1439,995,1602,1021"/>
+<area shape="rect" id="node42" title=" " alt="" coords="1072,1039,1168,1065"/>
+<area shape="rect" id="node43" title=" " alt="" coords="1479,1167,1563,1193"/>
+</map>

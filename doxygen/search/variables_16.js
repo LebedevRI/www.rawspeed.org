@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['w_3859',['w',['../dc/dd7/classrawspeed_1_1_s_o_f_info.html#a07ef344133a9c5a8452de1ef32be6091',1,'rawspeed::SOFInfo::w()'],['../d7/d6d/classrawspeed_1_1_l_jpeg_decompressor.html#ac2a3ef50358eec79b6cfcd60dd17982e',1,'rawspeed::LJpegDecompressor::w()']]],
+  ['warn_5funused_5fresult_3860',['warn_unused_result',['../de/dc3/namespacerawspeed.html#a3d44fb0c3dc71880eaea669c7df4449c',1,'rawspeed']]],
+  ['wavelet_3861',['wavelet',['../df/da2/structrawspeed_1_1_v_c5_decompressor_1_1_decodeable_band.html#ad19302c4f1891cf3c9cd0947a9067056',1,'rawspeed::VC5Decompressor::DecodeableBand::wavelet()'],['../d6/dc5/structrawspeed_1_1_v_c5_decompressor_1_1_reconstruction_step.html#a7355d72d1a98c8902e88522e1a0e48c4',1,'rawspeed::VC5Decompressor::ReconstructionStep::wavelet()']]],
+  ['wavelets_3862',['wavelets',['../d0/dd8/structrawspeed_1_1_v_c5_decompressor_1_1_channel.html#a7c491ebe65b6ec8443dfa985702e90cf',1,'rawspeed::VC5Decompressor::Channel']]],
+  ['wb_5fcoeffs_3863',['wb_coeffs',['../df/d20/classrawspeed_1_1_mrw_decoder.html#aabae656d03ec5f6d779b4e8c3bac2a93',1,'rawspeed::MrwDecoder']]],
+  ['wbcoeffs_3864',['wbCoeffs',['../dc/d97/classrawspeed_1_1_image_meta_data.html#aa71cee9e6cdcc6490b022eb732ed7be5',1,'rawspeed::ImageMetaData']]],
+  ['whitepoint_3865',['whitePoint',['../dc/d44/classrawspeed_1_1_raw_image_data.html#ab0aebf97786307b4efc276a3f18e201e',1,'rawspeed::RawImageData']]],
+  ['width_3866',['width',['../dd/dcb/classrawspeed_1_1_array2_d_ref.html#aa5f993aae3a3247a466596d9f5511135',1,'rawspeed::Array2DRef::width()'],['../d3/d36/classrawspeed_1_1_v_c5_decompressor_1_1_wavelet.html#a56ee6e47024fff75da23b497301089e2',1,'rawspeed::VC5Decompressor::Wavelet::width()'],['../d0/dd8/structrawspeed_1_1_v_c5_decompressor_1_1_channel.html#a326193557570ee786ea06b664b9e3880',1,'rawspeed::VC5Decompressor::Channel::width()'],['../d6/dd6/classrawspeed_1_1_simple_tiff_decoder.html#aeb8a112687c18eaecf9513bff3963af6',1,'rawspeed::SimpleTiffDecoder::width()'],['../dd/d83/structrawspeed_1_1_dng_slice_element.html#a661a0ddf6687a6e5df891c0d3b21632d',1,'rawspeed::DngSliceElement::width()'],['../d2/d30/classrawspeed_1_1_naked_decoder.html#a696a1595f580d0ba8638594af397502a',1,'rawspeed::NakedDecoder::width()']]]
+];

@@ -1,0 +1,3356 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Camera Support &mdash; RawSpeed  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reference Sample Archive" href="ReferenceSampleArchive.html" />
+    <link rel="prev" title="Welcome to RawSpeed’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> RawSpeed
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Welcome to RawSpeed’s documentation!</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Camera Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReferenceSampleArchive.html">Reference Sample Archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="IntegrationTesting.html">Integration Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Doxygen.html">Doxygen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lnt/index.html">LLVM LNT / Test-Suite Integration</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RawSpeed</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Camera Support</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/CameraSupport.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="camera-support">
+<h1>Camera Support<a class="headerlink" href="#camera-support" title="Permalink to this headline">¶</a></h1>
+<p><p>There are 41 known camera makers, 
+699 known unique camera models.</p>
+<p>Any support is impossible without the samples.
+Currently, <a class="reference external" href="https://raw.pixls.us/"><img alt="rpu-button-cameras" src="https://raw.pixls.us/button-cameras.svg" /></a> cameras have samples, with total count of <a class="reference external" href="https://raw.pixls.us/"><img alt="rpu-button-samples" src="https://raw.pixls.us/button-samples.svg" /></a> unique samples. <strong>Please contribute samples</strong>!</p>
+<div class="section" id="arri">
+<h2>ARRI<a class="headerlink" href="#arri" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>ALEXA  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="avt">
+<h2>AVT<a class="headerlink" href="#avt" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  5</p>
+<ul class="simple">
+<li>F-080C  - <em>unsupported</em></li>
+<li>F-145C  - <em>unsupported</em></li>
+<li>F-201C  - <em>unsupported</em></li>
+<li>F-510C</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-c - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+<li>chdk-d - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>F-810C  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="agfaphoto">
+<h2>AgfaPhoto<a class="headerlink" href="#agfaphoto" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>DC-833m  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="alcatel">
+<h2>Alcatel<a class="headerlink" href="#alcatel" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>5035D  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="baumer">
+<h2>Baumer<a class="headerlink" href="#baumer" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>TXG14  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="canon">
+<h2>Canon<a class="headerlink" href="#canon" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  119</p>
+<ul class="simple">
+<li>EOS 1000D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Kiss Digital F</li>
+<li>EOS Digital Rebel XS</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 100D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel SL1</li>
+<li>EOS Kiss X7</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 10D</li>
+<li>EOS 1100D</li>
+<li>EOS 1200D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T5</li>
+<li>EOS Kiss X70</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 1300D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T6</li>
+<li>EOS Kiss X80</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 2000D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS 1500D</li>
+<li>EOS Rebel T7</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 200D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel SL2</li>
+<li>EOS Kiss X9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 20D</li>
+<li>EOS 300D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Digital Rebel</li>
+<li>EOS Kiss Digital</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 30D</li>
+<li>EOS 350D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS 350D</li>
+<li>Digital Rebel XT</li>
+<li>Kiss Digital N</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 4000D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS 3000D</li>
+<li>EOS Rebel T100</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 400D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Kiss Digital X</li>
+<li>EOS Digital Rebel XTi</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 40D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 450D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>Kiss X2</li>
+<li>Digital Rebel XSi</li>
+<li>Kiss Digital X2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 500D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T1i</li>
+<li>EOS Kiss X3</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 50D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 550D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T2i</li>
+<li>EOS Kiss X4</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 5D</li>
+<li>EOS 5D Mark II</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 5D Mark III</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 5D Mark IV</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 5DS</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 5DS R</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 600D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Kiss X5</li>
+<li>EOS Rebel T3i</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 60D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 650D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T4i</li>
+<li>EOS Kiss X6i</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 6D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 6D Mark II</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 700D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T5i</li>
+<li>EOS Kiss X7i</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 70D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 750D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Kiss X8i</li>
+<li>EOS Rebel T6i</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 760D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS Rebel T6s</li>
+<li>EOS 8000D</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 77D</li>
+<li>EOS 7D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 7D Mark II</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 800D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>EOS REBEL T7i</li>
+<li>EOS Rebel T7i</li>
+<li>EOS Kiss X9i</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS 80D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS D2000C</li>
+<li>EOS D30</li>
+<li>EOS D60</li>
+<li>EOS M</li>
+<li>EOS M10</li>
+<li>EOS M100</li>
+<li>EOS M2</li>
+<li>EOS M3</li>
+<li>EOS M5</li>
+<li>EOS M6</li>
+<li>EOS-1D</li>
+<li>EOS-1D Mark II</li>
+<li>EOS-1D Mark II N</li>
+<li>EOS-1D Mark III</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS-1D Mark IV</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS-1D X</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS-1D X Mark II</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>EOS-1Ds</li>
+<li>EOS-1Ds Mark II</li>
+<li>EOS-1Ds Mark III</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>sRaw2</li>
+<li>sRaw1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>PowerShot A3200 IS  - <em>unsupported</em></li>
+<li>PowerShot A3300 IS  - <em>unsupported</em></li>
+<li>PowerShot A460  - <em>unsupported</em></li>
+<li>PowerShot A470  - <em>unsupported</em></li>
+<li>PowerShot A530  - <em>unsupported</em></li>
+<li>PowerShot A610  - <em>unsupported</em></li>
+<li>PowerShot A620  - <em>unsupported</em></li>
+<li>PowerShot A630  - <em>unsupported</em></li>
+<li>PowerShot A640  - <em>unsupported</em></li>
+<li>PowerShot A650  - <em>unsupported</em></li>
+<li>PowerShot A720 IS</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>chdk</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>PowerShot G1</li>
+<li>PowerShot G1 X</li>
+<li>PowerShot G1 X Mark II</li>
+<li>PowerShot G1 X Mark III</li>
+<li>PowerShot G10</li>
+<li>PowerShot G11</li>
+<li>PowerShot G12</li>
+<li>PowerShot G15</li>
+<li>PowerShot G16</li>
+<li>PowerShot G2</li>
+<li>PowerShot G3</li>
+<li>PowerShot G3 X</li>
+<li>PowerShot G5</li>
+<li>PowerShot G5 X</li>
+<li>PowerShot G6</li>
+<li>PowerShot G7 X</li>
+<li>PowerShot G7 X Mark II</li>
+<li>PowerShot G9</li>
+<li>PowerShot G9 X</li>
+<li>PowerShot G9 X Mark II</li>
+<li>PowerShot Pro1</li>
+<li>PowerShot Pro70  - <em>unsupported</em></li>
+<li>PowerShot S100</li>
+<li>PowerShot S110</li>
+<li>PowerShot S120</li>
+<li>PowerShot S3 IS  - <em>unsupported</em></li>
+<li>PowerShot S30</li>
+<li>PowerShot S40</li>
+<li>PowerShot S45</li>
+<li>PowerShot S50</li>
+<li>PowerShot S60</li>
+<li>PowerShot S70</li>
+<li>PowerShot S90</li>
+<li>PowerShot S95</li>
+<li>PowerShot SD300  - <em>unsupported</em></li>
+<li>PowerShot SD450  - <em>unsupported</em></li>
+<li>PowerShot SX1 IS</li>
+<li>PowerShot SX100 IS  - <em>unsupported</em></li>
+<li>PowerShot SX110 IS  - <em>unsupported</em></li>
+<li>PowerShot SX120 IS  - <em>unsupported</em></li>
+<li>PowerShot SX130 IS  - <em>unsupported</em></li>
+<li>PowerShot SX20 IS  - <em>unsupported</em></li>
+<li>PowerShot SX220 HS  - <em>unsupported</em></li>
+<li>PowerShot SX260 HS  - <em>unsupported</em></li>
+<li>PowerShot SX30 IS  - <em>unsupported</em></li>
+<li>PowerShot SX40 HS  - <em>unsupported</em></li>
+<li>PowerShot SX50 HS</li>
+<li>PowerShot SX510 HS  - <em>unsupported</em></li>
+<li>PowerShot SX60 HS</li>
+</ul>
+</div>
+<div class="section" id="casio">
+<h2>Casio<a class="headerlink" href="#casio" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  21</p>
+<ul class="simple">
+<li>EX-P505  - <em>unsupported</em></li>
+<li>EX-P600  - <em>unsupported</em></li>
+<li>EX-P700  - <em>unsupported</em></li>
+<li>EX-S100  - <em>unsupported</em></li>
+<li>EX-S20  - <em>unsupported</em></li>
+<li>EX-Z1050  - <em>unsupported</em></li>
+<li>EX-Z50  - <em>unsupported</em></li>
+<li>EX-Z500  - <em>unsupported</em></li>
+<li>EX-Z55  - <em>unsupported</em></li>
+<li>EX-Z60  - <em>unsupported</em></li>
+<li>EX-Z75  - <em>unsupported</em></li>
+<li>EX-Z750  - <em>unsupported</em></li>
+<li>EX-Z8  - <em>unsupported</em></li>
+<li>EX-Z850  - <em>unsupported</em></li>
+<li>EX-ZR100  - <em>unsupported</em></li>
+<li>QV-2000UX  - <em>unsupported</em></li>
+<li>QV-3*00EX  - <em>unsupported</em></li>
+<li>QV-4000  - <em>unsupported</em></li>
+<li>QV-5700  - <em>unsupported</em></li>
+<li>QV-R41  - <em>unsupported</em></li>
+<li>QV-R51  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="creative">
+<h2>Creative<a class="headerlink" href="#creative" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>PC-CAM 600  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="dji">
+<h2>DJI<a class="headerlink" href="#dji" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li><ul class="first">
+<li><em>unsupported</em></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="epson">
+<h2>Epson<a class="headerlink" href="#epson" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  3</p>
+<ul class="simple">
+<li>R-D1</li>
+<li>R-D1s</li>
+<li>R-D1x</li>
+</ul>
+</div>
+<div class="section" id="foculus">
+<h2>Foculus<a class="headerlink" href="#foculus" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>531C  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="fujifilm">
+<h2>Fujifilm<a class="headerlink" href="#fujifilm" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  68</p>
+<ul class="simple">
+<li>FinePix E550</li>
+<li>FinePix E900</li>
+<li>FinePix F600EXR</li>
+<li>FinePix F700</li>
+<li>FinePix F770EXR</li>
+<li>FinePix F900EXR</li>
+<li>FinePix HS10 HS11</li>
+<li>FinePix HS20EXR</li>
+<li>FinePix HS30EXR</li>
+<li>FinePix HS50EXR</li>
+<li>FinePix S1</li>
+<li>FinePix S100FS</li>
+<li>FinePix S200EXR</li>
+<li>FinePix S2Pro</li>
+<li>FinePix S3Pro</li>
+<li>FinePix S5000</li>
+<li>FinePix S5200</li>
+<li>FinePix S5500</li>
+<li>FinePix S5600</li>
+<li>FinePix S5Pro</li>
+<li>FinePix S6000fd</li>
+<li>FinePix S6500fd</li>
+<li>FinePix S7000</li>
+<li>FinePix S9500</li>
+<li>FinePix S9600</li>
+<li>FinePix S9600fd</li>
+<li>FinePix X10</li>
+<li>FinePix X100</li>
+<li>GFX 100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>GFX 50R</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>GFX 50S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>IS-1</li>
+<li>X-A1</li>
+<li>X-A10</li>
+<li>X-A2</li>
+<li>X-A3</li>
+<li>X-A5</li>
+<li>X-E1</li>
+<li>X-E2</li>
+<li>X-E2S</li>
+<li>X-E3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-H1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-M1</li>
+<li>X-Pro1</li>
+<li>X-Pro2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-Pro3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-S1</li>
+<li>X-S10</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-T1</li>
+<li>X-T10</li>
+<li>X-T100</li>
+<li>X-T2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-T20</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-T200</li>
+<li>X-T3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-T30</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X-T4</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X100F</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X100S</li>
+<li>X100T</li>
+<li>X100V</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X20</li>
+<li>X30</li>
+<li>X70</li>
+<li>XF1</li>
+<li>XF10</li>
+<li>XQ1</li>
+<li>XQ2</li>
+</ul>
+</div>
+<div class="section" id="gitup">
+<h2>GITUP<a class="headerlink" href="#gitup" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  2</p>
+<ul class="simple">
+<li>GIT2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-b</li>
+<li>chdk-a</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>GIT2P</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-b</li>
+<li>chdk-a</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="generic">
+<h2>Generic<a class="headerlink" href="#generic" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li><ul class="first">
+<li><em>unsupported</em></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="gopro">
+<h2>GoPro<a class="headerlink" href="#gopro" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  4</p>
+<ul class="simple">
+<li>FUSION  - <em>unsupported</em></li>
+<li>HERO5 Black  - <em>unsupported</em></li>
+<li>HERO6 Black  - <em>unsupported</em></li>
+<li>HERO7 Black  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="hasselblad">
+<h2>Hasselblad<a class="headerlink" href="#hasselblad" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  8</p>
+<ul class="simple">
+<li>CF132</li>
+<li>CFV</li>
+<li>CFV-50</li>
+<li>H3D</li>
+<li>H4D-50</li>
+<li>H5D-40</li>
+<li>H5D-50c</li>
+<li>X1DM2-50c</li>
+</ul>
+</div>
+<div class="section" id="kodak">
+<h2>Kodak<a class="headerlink" href="#kodak" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  22</p>
+<ul class="simple">
+<li>12MP</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-c - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>C330</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>C603</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-c - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+<li>chdk-d - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC120  - <em>unsupported</em></li>
+<li>DC20</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC50  - <em>unsupported</em></li>
+<li>DCS Pro 14N</li>
+<li>DCS Pro 14nx</li>
+<li>DCS Pro SLR/n</li>
+<li>DCS200  - <em>unsupported</em></li>
+<li>DCS460D</li>
+<li>DCS520C</li>
+<li>DCS560C</li>
+<li>DCS760C</li>
+<li>EOS DCS 1</li>
+<li>EOS DCS 3</li>
+<li>EasyShare Z980</li>
+<li>EasyShare Z981</li>
+<li>EasyShare Z990</li>
+<li>KAI-0340  - <em>unsupported</em></li>
+<li>P880</li>
+<li>Z1015 IS</li>
+</ul>
+</div>
+<div class="section" id="lg">
+<h2>LG<a class="headerlink" href="#lg" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  5</p>
+<ul class="simple">
+<li>D855  - <em>unsupported</em></li>
+<li>H815  - <em>unsupported</em></li>
+<li>Nexus 5X  - <em>unsupported</em></li>
+<li>US996  - <em>unsupported</em></li>
+<li>VS995  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="leaf">
+<h2>Leaf<a class="headerlink" href="#leaf" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  11</p>
+<ul class="simple">
+<li>Aptus 22</li>
+<li>Aptus 75  - <em>unsupported</em></li>
+<li>Aptus-II 5</li>
+<li>Credo 40</li>
+<li>Credo 60</li>
+<li>Credo 80</li>
+<li>Leaf AFi-II 7(BT12701    )/Leaf AFi  - <em>unsupported</em></li>
+<li>Leaf Aptus-II 10(LI300019   )/Phase One 645DF  - <em>unsupported</em></li>
+<li>Leaf Aptus-II 10R(           )/Large Format  - <em>unsupported</em></li>
+<li>Leaf Aptus-II 12(LI301306   )/Phase One 645DF/645AF  - <em>unsupported</em></li>
+<li>Leaf Aptus-II 8(LI300247   )/Mamiya 645 AFD  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="leica">
+<h2>Leica<a class="headerlink" href="#leica" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  16</p>
+<ul class="simple">
+<li>C (Typ 112)</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>CL  - <em>unsupported</em></li>
+<li>D-LUX (Typ 109)</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D-LUX 3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D-LUX 4</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D-LUX 5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D-LUX 6</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Digilux 2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>M (Typ 240)  - <em>unsupported</em></li>
+<li>M8  - <em>unsupported</em></li>
+<li>Q (Typ 116)  - <em>unsupported</em></li>
+<li>Q2  - <em>unsupported</em></li>
+<li>SL (Typ 601)  - <em>unsupported</em></li>
+<li>V-LUX (Typ 114)</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>V-LUX 1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>X2  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="mamiya">
+<h2>Mamiya<a class="headerlink" href="#mamiya" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>ZD</li>
+</ul>
+</div>
+<div class="section" id="matrix">
+<h2>Matrix<a class="headerlink" href="#matrix" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li><ul class="first">
+<li><em>unsupported</em></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="micron">
+<h2>Micron<a class="headerlink" href="#micron" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>2010  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="minolta">
+<h2>Minolta<a class="headerlink" href="#minolta" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  10</p>
+<ul class="simple">
+<li>DiMAGE 5</li>
+<li>DiMAGE 7</li>
+<li>DiMAGE 7Hi</li>
+<li>DiMAGE 7i</li>
+<li>DiMAGE A1</li>
+<li>DiMAGE A2</li>
+<li>DiMAGE A200</li>
+<li>Dynax 5D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>Alpha 5D</li>
+<li>Maxxum 5D</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Dynax 7D</li>
+</ul>
+<blockquote>
+<div><p>aliases:</p>
+<ul class="simple">
+<li>Alpha 7D</li>
+<li>Maxxum 7D</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>RD175  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="nikon">
+<h2>Nikon<a class="headerlink" href="#nikon" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  94</p>
+<ul class="simple">
+<li>1 AW1  - <em>unsupported</em></li>
+<li>1 J1  - <em>unsupported</em></li>
+<li>1 J2  - <em>unsupported</em></li>
+<li>1 J3  - <em>unsupported</em></li>
+<li>1 J4  - <em>unsupported</em></li>
+<li>1 J5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>1 S1  - <em>unsupported</em></li>
+<li>1 S2  - <em>unsupported</em></li>
+<li>1 V1  - <em>unsupported</em></li>
+<li>1 V2  - <em>unsupported</em></li>
+<li>1 V3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>COOLPIX B700</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>COOLPIX P1000  - <em>unsupported</em></li>
+<li>COOLPIX P950  - <em>unsupported</em></li>
+<li>COOLPIX S6  - <em>unsupported</em></li>
+<li>Coolpix A  - <em>unsupported</em></li>
+<li>Coolpix E8800</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-uncompressed - <em>unsupported</em></li>
+<li>12bit-compressed - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Coolpix P330  - <em>unsupported</em></li>
+<li>Coolpix P340</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Coolpix P6000  - <em>unsupported</em></li>
+<li>Coolpix P7000  - <em>unsupported</em></li>
+<li>Coolpix P7100  - <em>unsupported</em></li>
+<li>Coolpix P7700  - <em>unsupported</em></li>
+<li>Coolpix P7800  - <em>unsupported</em></li>
+<li>D1  - <em>unsupported</em></li>
+<li>D100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D1H</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D1X</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D200</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D2H</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D2Hs</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D2X</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D2Xs</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D300</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D3000  - <em>unsupported</em></li>
+<li>D300S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D3100  - <em>unsupported</em></li>
+<li>D3200  - <em>unsupported</em></li>
+<li>D3300</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D3400  - <em>unsupported</em></li>
+<li>D3500  - <em>unsupported</em></li>
+<li>D3S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D3X</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D4</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D40</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D40X</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D4S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>14bit-compressed</li>
+<li>sNEF-uncompressed</li>
+<li>12bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D50  - <em>unsupported</em></li>
+<li>D500</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5000</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5200  - <em>unsupported</em></li>
+<li>D5300</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5500</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D5600</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D60</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D600</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D610</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D70  - <em>unsupported</em></li>
+<li>D700</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D7000</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D70s  - <em>unsupported</em></li>
+<li>D7100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D7200</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed - <em>unsupported</em></li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D750</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D7500</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D780</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D80</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D800</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>14bit-compressed</li>
+<li>7424x4924-14bit-uncompressed</li>
+<li>12bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D800E</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>14bit-compressed</li>
+<li>7424x4924-14bit-uncompressed</li>
+<li>12bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D810</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>14bit-compressed</li>
+<li>sNEF-uncompressed</li>
+<li>12bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D850</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>D90</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Df</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>E2100  - <em>unsupported</em></li>
+<li>E3700  - <em>unsupported</em></li>
+<li>E4300  - <em>unsupported</em></li>
+<li>E4500  - <em>unsupported</em></li>
+<li>E5000  - <em>unsupported</em></li>
+<li>E5400  - <em>unsupported</em></li>
+<li>E5700  - <em>unsupported</em></li>
+<li>E8400</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-uncompressed - <em>unsupported</em></li>
+<li>12bit-compressed - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>E900  - <em>unsupported</em></li>
+<li>E950  - <em>unsupported</em></li>
+<li>E990  - <em>unsupported</em></li>
+<li>LS-5000  - <em>unsupported</em></li>
+<li>Z 5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Z 50</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Z 6</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Z 6_2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Z 7</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Z 7_2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>12bit-compressed</li>
+<li>14bit-compressed</li>
+<li>14bit-uncompressed</li>
+<li>12bit-uncompressed</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="nokia">
+<h2>Nokia<a class="headerlink" href="#nokia" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>Lumia 1020  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="olympus">
+<h2>Olympus<a class="headerlink" href="#olympus" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  61</p>
+<ul class="simple">
+<li>C5050Z</li>
+<li>C5060WZ</li>
+<li>C7070WZ</li>
+<li>C770UZ  - <em>unsupported</em></li>
+<li>C8080WZ</li>
+<li>E-1</li>
+<li>E-10</li>
+<li>E-20</li>
+<li>E-3</li>
+<li>E-30</li>
+<li>E-300</li>
+<li>E-330</li>
+<li>E-400</li>
+<li>E-410</li>
+<li>E-420</li>
+<li>E-450</li>
+<li>E-5</li>
+<li>E-500</li>
+<li>E-510</li>
+<li>E-520</li>
+<li>E-600</li>
+<li>E-620</li>
+<li>E-M1</li>
+<li>E-M10</li>
+<li>E-M10 Mark II</li>
+<li>E-M10 Mark III</li>
+<li>E-M10 Mark IV</li>
+<li>E-M1MarkII</li>
+<li>E-M1MarkIII</li>
+<li>E-M1X</li>
+<li>E-M5</li>
+<li>E-M5 Mark II</li>
+<li>E-M5 Mark III</li>
+<li>E-P1</li>
+<li>E-P2</li>
+<li>E-P3</li>
+<li>E-P5</li>
+<li>E-PL1</li>
+<li>E-PL10</li>
+<li>E-PL2</li>
+<li>E-PL3</li>
+<li>E-PL5</li>
+<li>E-PL6</li>
+<li>E-PL7</li>
+<li>E-PL8</li>
+<li>E-PL9</li>
+<li>E-PM1</li>
+<li>E-PM2</li>
+<li>PEN-F</li>
+<li>SH-2</li>
+<li>SP320</li>
+<li>SP350</li>
+<li>SP500UZ</li>
+<li>SP570UZ</li>
+<li>Stylus1</li>
+<li>TG-4</li>
+<li>TG-5</li>
+<li>TG-6</li>
+<li>XZ-1</li>
+<li>XZ-10</li>
+<li>XZ-2</li>
+</ul>
+</div>
+<div class="section" id="oneplus">
+<h2>OnePlus<a class="headerlink" href="#oneplus" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>One  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="panasonic">
+<h2>Panasonic<a class="headerlink" href="#panasonic" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  74</p>
+<ul class="simple">
+<li>DC-FZ10002</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-FZ82</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-FZ80</li>
+<li>DMC-FZ85</li>
+<li>DC-FZ80</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-G100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-G9</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-G95</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-G91</li>
+<li>DC-G90</li>
+<li>DC-G99</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-GF9</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-GX850</li>
+<li>DC-GX800</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-GH5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-GH5S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-GX880</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-GF10</li>
+<li>GF90</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-GX9</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-LX100M2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-S1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-S1H</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-S1R</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-S5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-TZ202</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-ZS200</li>
+<li>DC-TZ200</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-TZ90</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-FZ92</li>
+<li>DC-FZ93</li>
+<li>DC-FZ91</li>
+<li>DC-TZ91</li>
+<li>DC-ZS70</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DC-TZ96</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DC-TZ95</li>
+<li>DC-ZS80</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-CM1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FX150</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ1000</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ150</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ18</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ200</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ2000</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ28</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ30</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ300</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ330</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ35</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ45</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ50</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ70</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-FZ8</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G10</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G6</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G7</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-G8</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-G81</li>
+<li>DMC-G80</li>
+<li>DMC-G85</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF6</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GF7</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GH1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+<li>3:2</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GH2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GH3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GH4</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GM1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GM5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GX1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GX7</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GX8</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-GX85</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-GX80</li>
+<li>DMC-GX7MK2</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-L1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-L10</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LF1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX15</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-LX10</li>
+<li>DMC-LX9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX2</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>16:9</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX3</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-LX7</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-TZ100</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>3:2</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-ZS110</li>
+<li>DMC-ZS100</li>
+<li>DMC-TX1</li>
+<li>DMC-TZ101</li>
+<li>DMC-TZ110</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-TZ60</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-TZ61</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-TZ71</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>16:9</li>
+<li>3:2</li>
+<li>1:1</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-TZ70</li>
+<li>DMC-ZS50</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>DMC-TZ81</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>4:3</li>
+<li>Default mode</li>
+</ul>
+<p>aliases:</p>
+<ul class="simple">
+<li>DMC-TZ80</li>
+<li>DMC-ZS60</li>
+<li>DMC-TZ85</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="paralenz">
+<h2>Paralenz<a class="headerlink" href="#paralenz" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>Dive Camera  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="pentax">
+<h2>Pentax<a class="headerlink" href="#pentax" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  39</p>
+<ul class="simple">
+<li><a href="#id1"><span class="problematic" id="id2">*</span></a>ist D</li>
+<li><a href="#id3"><span class="problematic" id="id4">*</span></a>ist DL</li>
+<li><a href="#id5"><span class="problematic" id="id6">*</span></a>ist DL2</li>
+<li><a href="#id7"><span class="problematic" id="id8">*</span></a>ist DS</li>
+<li>645D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>645Z</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>K-01  - <em>unsupported</em></li>
+<li>K-1</li>
+<li>K-1 Mark II</li>
+<li>K-3</li>
+<li>K-3 II</li>
+<li>K-30  - <em>unsupported</em></li>
+<li>K-5</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>K-5 II</li>
+<li>K-5 II s</li>
+<li>K-50  - <em>unsupported</em></li>
+<li>K-500  - <em>unsupported</em></li>
+<li>K-7</li>
+<li>K-70</li>
+<li>K-S1</li>
+<li>K-S2</li>
+<li>K-m</li>
+<li>K-r</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>K-x</li>
+<li>K100D</li>
+<li>K100D Super</li>
+<li>K10D</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>K110D</li>
+<li>K2000</li>
+<li>K200D</li>
+<li>K20D</li>
+<li>KP</li>
+<li>MX-1  - <em>unsupported</em></li>
+<li>Optio 750Z  - <em>unsupported</em></li>
+<li>Optio S</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>Optio S4  - <em>unsupported</em></li>
+<li>Q  - <em>unsupported</em></li>
+<li>Q10  - <em>unsupported</em></li>
+<li>Q7  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="phase-one">
+<h2>Phase One<a class="headerlink" href="#phase-one" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  4</p>
+<ul class="simple">
+<li>IQ140</li>
+<li>IQ250</li>
+<li>P30</li>
+<li>P65+</li>
+</ul>
+</div>
+<div class="section" id="pixelink">
+<h2>Pixelink<a class="headerlink" href="#pixelink" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>A782  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="ricoh">
+<h2>Ricoh<a class="headerlink" href="#ricoh" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  2</p>
+<ul class="simple">
+<li>GR  - <em>unsupported</em></li>
+<li>GR II  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="rovershot">
+<h2>RoverShot<a class="headerlink" href="#rovershot" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>3320AF  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="st-micro">
+<h2>ST Micro<a class="headerlink" href="#st-micro" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>STV680 VGA  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="samsung">
+<h2>Samsung<a class="headerlink" href="#samsung" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  25</p>
+<ul class="simple">
+<li>EK-GN120</li>
+<li>EX1</li>
+<li>EX2F</li>
+<li>G920F</li>
+<li>G935F</li>
+<li>GX10</li>
+<li>GX20</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>dng</li>
+<li>Default mode</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>NX1</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>12bit</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>NX10</li>
+<li>NX100</li>
+<li>NX1000</li>
+<li>NX11</li>
+<li>NX1100</li>
+<li>NX20</li>
+<li>NX200</li>
+<li>NX2000</li>
+<li>NX210</li>
+<li>NX30</li>
+<li>NX300</li>
+<li>NX3000</li>
+<li>NX5</li>
+<li>NX500</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>Default mode</li>
+<li>12bit</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>S85</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>WB2000</li>
+<li>WB550</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="sigma">
+<h2>Sigma<a class="headerlink" href="#sigma" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  2</p>
+<ul class="simple">
+<li>DP1  - <em>unsupported</em></li>
+<li>DP1 Merrill  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="sinar">
+<h2>Sinar<a class="headerlink" href="#sinar" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  2</p>
+<ul class="simple">
+<li>modes:<ul>
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-c - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</li>
+<li>Hy6  - <em>unsupported</em></li>
+</ul>
+</div>
+<div class="section" id="sjcam">
+<h2>Sjcam<a class="headerlink" href="#sjcam" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  1</p>
+<ul class="simple">
+<li>SJ6 LEGEND</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-c</li>
+<li>chdk-b</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="sony">
+<h2>Sony<a class="headerlink" href="#sony" title="Permalink to this headline">¶</a></h2>
+<p>Known cameras:  84</p>
+<ul class="simple">
+<li>DSC-F828</li>
+<li>DSC-HX99</li>
+<li>DSC-R1</li>
+<li>DSC-RX0</li>
+<li>DSC-RX0M2</li>
+<li>DSC-RX1</li>
+<li>DSC-RX10</li>
+<li>DSC-RX100</li>
+<li>DSC-RX100M2</li>
+<li>DSC-RX100M3</li>
+<li>DSC-RX100M4</li>
+<li>DSC-RX100M5</li>
+<li>DSC-RX100M5A</li>
+<li>DSC-RX100M6</li>
+<li>DSC-RX100M7</li>
+<li>DSC-RX10M2</li>
+<li>DSC-RX10M3</li>
+<li>DSC-RX10M4</li>
+<li>DSC-RX1R</li>
+<li>DSC-RX1RM2</li>
+<li>DSLR-A100</li>
+<li>DSLR-A200</li>
+<li>DSLR-A230</li>
+<li>DSLR-A290</li>
+<li>DSLR-A300</li>
+<li>DSLR-A330</li>
+<li>DSLR-A350</li>
+<li>DSLR-A380</li>
+<li>DSLR-A390</li>
+<li>DSLR-A450</li>
+<li>DSLR-A500</li>
+<li>DSLR-A550</li>
+<li>DSLR-A560</li>
+<li>DSLR-A580</li>
+<li>DSLR-A700</li>
+<li>DSLR-A850</li>
+<li>DSLR-A900</li>
+<li>ILCA-68</li>
+<li>ILCA-77M2</li>
+<li>ILCA-99M2</li>
+<li>ILCE-3000</li>
+<li>ILCE-3500</li>
+<li>ILCE-5000</li>
+<li>ILCE-5100</li>
+<li>ILCE-6000</li>
+<li>ILCE-6100</li>
+<li>ILCE-6300</li>
+<li>ILCE-6400</li>
+<li>ILCE-6500</li>
+<li>ILCE-6600</li>
+<li>ILCE-7</li>
+<li>ILCE-7C</li>
+<li>ILCE-7M2</li>
+<li>ILCE-7M3</li>
+<li>ILCE-7R</li>
+<li>ILCE-7RM2</li>
+<li>ILCE-7RM3</li>
+<li>ILCE-7RM4</li>
+<li>ILCE-7S</li>
+<li>ILCE-7SM2</li>
+<li>ILCE-9</li>
+<li>ILCE-9M2</li>
+<li>ILCE-QX1</li>
+<li>NEX-3</li>
+<li>NEX-3N</li>
+<li>NEX-5</li>
+<li>NEX-5N</li>
+<li>NEX-5R</li>
+<li>NEX-5T</li>
+<li>NEX-6</li>
+<li>NEX-7</li>
+<li>NEX-C3</li>
+<li>NEX-F3</li>
+<li>SLT-A33</li>
+<li>SLT-A35</li>
+<li>SLT-A37</li>
+<li>SLT-A55</li>
+<li>SLT-A57</li>
+<li>SLT-A58</li>
+<li>SLT-A65</li>
+<li>SLT-A77</li>
+<li>SLT-A99</li>
+<li>XCD-SX910CR</li>
+</ul>
+<blockquote>
+<div><p>modes:</p>
+<ul class="simple">
+<li>chdk-a - <em>unsupported</em></li>
+<li>chdk-b - <em>unsupported</em></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>ZV-1</li>
+</ul>
+</div>
+</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ReferenceSampleArchive.html" class="btn btn-neutral float-right" title="Reference Sample Archive" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to RawSpeed’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2009-2016 Klaus Post, 2016-2019 Roman Lebedev
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

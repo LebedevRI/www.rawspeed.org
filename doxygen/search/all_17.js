@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['w_2075',['w',['../dc/dd7/classrawspeed_1_1_s_o_f_info.html#a07ef344133a9c5a8452de1ef32be6091',1,'rawspeed::SOFInfo::w()'],['../d7/d6d/classrawspeed_1_1_l_jpeg_decompressor.html#ac2a3ef50358eec79b6cfcd60dd17982e',1,'rawspeed::LJpegDecompressor::w()']]],
+  ['warn_5funused_5fresult_2076',['warn_unused_result',['../de/dc3/namespacerawspeed.html#a3d44fb0c3dc71880eaea669c7df4449c',1,'rawspeed']]],
+  ['wavelet_2077',['Wavelet',['../d3/d36/classrawspeed_1_1_v_c5_decompressor_1_1_wavelet.html',1,'rawspeed::VC5Decompressor::Wavelet'],['../df/da2/structrawspeed_1_1_v_c5_decompressor_1_1_decodeable_band.html#ad19302c4f1891cf3c9cd0947a9067056',1,'rawspeed::VC5Decompressor::DecodeableBand::wavelet()'],['../d6/dc5/structrawspeed_1_1_v_c5_decompressor_1_1_reconstruction_step.html#a7355d72d1a98c8902e88522e1a0e48c4',1,'rawspeed::VC5Decompressor::ReconstructionStep::wavelet()']]],
+  ['wavelets_2078',['wavelets',['../d0/dd8/structrawspeed_1_1_v_c5_decompressor_1_1_channel.html#a7c491ebe65b6ec8443dfa985702e90cf',1,'rawspeed::VC5Decompressor::Channel']]],
+  ['wb_5fcoeffs_2079',['wb_coeffs',['../df/d20/classrawspeed_1_1_mrw_decoder.html#aabae656d03ec5f6d779b4e8c3bac2a93',1,'rawspeed::MrwDecoder']]],
+  ['wbcoeffs_2080',['wbCoeffs',['../dc/d97/classrawspeed_1_1_image_meta_data.html#aa71cee9e6cdcc6490b022eb732ed7be5',1,'rawspeed::ImageMetaData']]],
+  ['whitebalance_2081',['WHITEBALANCE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472aa8a4f0d5a55fb1d849c5656c3b77fa20',1,'rawspeed']]],
+  ['whitelevel_2082',['WHITELEVEL',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a412f65d298a52d1022aaad86bb086c29',1,'rawspeed']]],
+  ['whitepoint_2083',['whitePoint',['../dc/d44/classrawspeed_1_1_raw_image_data.html#ab0aebf97786307b4efc276a3f18e201e',1,'rawspeed::RawImageData::whitePoint()'],['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472acf8c8ada55256ddd2bdb8f897569b303',1,'rawspeed::WHITEPOINT()']]],
+  ['widenfilename_2084',['widenFileName',['../de/dc3/namespacerawspeed.html#aa28d62636a66ab7a3928dcb277be78f5',1,'rawspeed']]],
+  ['width_2085',['width',['../dd/dcb/classrawspeed_1_1_array2_d_ref.html#aa5f993aae3a3247a466596d9f5511135',1,'rawspeed::Array2DRef::width()'],['../d3/d36/classrawspeed_1_1_v_c5_decompressor_1_1_wavelet.html#a56ee6e47024fff75da23b497301089e2',1,'rawspeed::VC5Decompressor::Wavelet::width()'],['../d0/dd8/structrawspeed_1_1_v_c5_decompressor_1_1_channel.html#a326193557570ee786ea06b664b9e3880',1,'rawspeed::VC5Decompressor::Channel::width()'],['../d6/dd6/classrawspeed_1_1_simple_tiff_decoder.html#aeb8a112687c18eaecf9513bff3963af6',1,'rawspeed::SimpleTiffDecoder::width()'],['../dd/d83/structrawspeed_1_1_dng_slice_element.html#a661a0ddf6687a6e5df891c0d3b21632d',1,'rawspeed::DngSliceElement::width()'],['../d2/d30/classrawspeed_1_1_naked_decoder.html#a696a1595f580d0ba8638594af397502a',1,'rawspeed::NakedDecoder::width()'],['../d4/dc4/structrawspeed_1_1_fuji_decompressor_1_1_fuji_strip.html#a5df454b0ee8efe7eb9bdb54b9b48ab2a',1,'rawspeed::FujiDecompressor::FujiStrip::width()']]],
+  ['widthofslice_2086',['widthOfSlice',['../d3/de5/classrawspeed_1_1_cr2_slicing.html#adf4342251d2c4859c508b4adfee982d4',1,'rawspeed::Cr2Slicing']]],
+  ['writefile_2087',['writeFile',['../d7/dad/classrawspeed_1_1_file_writer.html#a0df786e72247341e224cdb5a6f7d08eb',1,'rawspeed::FileWriter']]],
+  ['writeimage_2088',['writeImage',['../d5/ddd/namespacerawspeed_1_1rstest.html#abde85257d7c7c1190b48de59b4a7a779',1,'rawspeed::rstest']]],
+  ['writelog_2089',['writeLog',['../de/dc3/namespacerawspeed.html#a8a98a18f46994d6cae15ce24462fb7d4',1,'rawspeed::writeLog(DEBUG_PRIO priority, const char *format,...) __attribute__((format(printf'],['../de/dc3/namespacerawspeed.html#a2a95113e84a98d8b18020013f77bbe71',1,'rawspeed::writeLog(DEBUG_PRIO_EXTRA, &quot;EXCEPTION: %s&quot;, buf.data())']]],
+  ['writepfm_2090',['writePFM',['../d5/ddd/namespacerawspeed_1_1rstest.html#a6fe3320224e0a905852d1656a8c8449e',1,'rawspeed::rstest']]],
+  ['writeppm_2091',['writePPM',['../d5/ddd/namespacerawspeed_1_1rstest.html#a3384d9f6ba62697f99ffae86b714327d',1,'rawspeed::rstest']]]
+];

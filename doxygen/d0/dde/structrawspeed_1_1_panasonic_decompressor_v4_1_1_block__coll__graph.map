@@ -1,0 +1,13 @@
+<map id="rawspeed::PanasonicDecompressorV4::Block" name="rawspeed::PanasonicDecompressorV4::Block">
+<area shape="rect" id="node1" title=" " alt="" coords="44,392,296,433"/>
+<area shape="rect" id="node2" href="$d8/d75/classrawspeed_1_1i_point2_d.html" title=" " alt="" coords="5,288,153,315"/>
+<area shape="rect" id="node3" href="$de/d73/classint32__t.html" title=" " alt="" coords="46,184,113,211"/>
+<area shape="rect" id="node4" href="$dd/da0/classrawspeed_1_1_byte_stream.html" title=" " alt="" coords="178,288,349,315"/>
+<area shape="rect" id="node5" href="$d1/dd4/classrawspeed_1_1_data_buffer.html" title=" " alt="" coords="159,184,322,211"/>
+<area shape="rect" id="node6" href="$d3/dca/classrawspeed_1_1_buffer.html" title=" " alt="" coords="81,95,213,121"/>
+<area shape="rect" id="node7" href="$d3/d87/classuint32__t.html" title=" " alt="" coords="23,5,98,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="122,5,173,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="202,5,269,32"/>
+<area shape="rect" id="node10" title=" " alt="" coords="238,95,334,121"/>
+<area shape="rect" id="node11" title=" " alt="" coords="347,184,431,211"/>
+</map>

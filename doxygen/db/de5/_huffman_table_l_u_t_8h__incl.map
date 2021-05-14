@@ -1,0 +1,37 @@
+<map id="librawspeed/decompressors/HuffmanTableLUT.h" name="librawspeed/decompressors/HuffmanTableLUT.h">
+<area shape="rect" id="node1" title=" " alt="" coords="766,5,970,47"/>
+<area shape="rect" id="node2" href="$d9/df5/src_2librawspeed_2common_2_common_8h.html" title=" " alt="" coords="524,572,679,599"/>
+<area shape="rect" id="node4" title=" " alt="" coords="2183,647,2252,673"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1212,647,1279,673"/>
+<area shape="rect" id="node11" title=" " alt="" coords="50,647,113,673"/>
+<area shape="rect" id="node12" href="$d0/daf/_raw_decoder_exception_8h.html" title=" " alt="" coords="1057,348,1300,375"/>
+<area shape="rect" id="node19" href="$dc/d41/_abstract_huffman_table_8h.html" title=" " alt="" coords="495,259,729,300"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1109,497,1179,524"/>
+<area shape="rect" id="node26" title=" " alt="" coords="956,423,1033,449"/>
+<area shape="rect" id="node31" href="$dc/dd0/_huffman_table_lookup_8h.html" title=" " alt="" coords="918,95,1133,136"/>
+<area shape="rect" id="node32" href="$d7/dc3/_bit_stream_8h.html" title=" " alt="" coords="1760,184,1875,211"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1159,184,1214,211"/>
+<area shape="rect" id="node3" title=" " alt="" coords="216,647,301,673"/>
+<area shape="rect" id="node5" title=" " alt="" coords="723,647,789,673"/>
+<area shape="rect" id="node7" title=" " alt="" coords="2356,647,2423,673"/>
+<area shape="rect" id="node8" title=" " alt="" coords="387,647,498,673"/>
+<area shape="rect" id="node9" title=" " alt="" coords="523,647,581,673"/>
+<area shape="rect" id="node10" title=" " alt="" coords="606,647,698,673"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1575,572,1711,599"/>
+<area shape="rect" id="node14" href="$d7/d05/_rawspeed_exception_8h.html" title=" " alt="" coords="1356,497,1583,524"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1735,572,1791,599"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1479,572,1550,599"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1283,572,1344,599"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1369,572,1455,599"/>
+<area shape="rect" id="node20" href="$d7/d1b/_buffer_8h.html" title=" " alt="" coords="1563,348,1651,375"/>
+<area shape="rect" id="node28" title=" " alt="" coords="297,348,383,375"/>
+<area shape="rect" id="node29" title=" " alt="" coords="407,348,478,375"/>
+<area shape="rect" id="node30" title=" " alt="" coords="503,348,577,375"/>
+<area shape="rect" id="node21" href="$d2/d4f/_address_sanitizer_8h.html" title=" " alt="" coords="1294,423,1437,449"/>
+<area shape="rect" id="node23" href="$d3/de6/_memory_8h.html" title=" " alt="" coords="1563,423,1709,449"/>
+<area shape="rect" id="node24" href="$d5/d0b/_endianness_8h.html" title=" " alt="" coords="2115,572,2239,599"/>
+<area shape="rect" id="node25" href="$d0/dd8/_i_o_exception_8h.html" title=" " alt="" coords="1784,423,1912,449"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1210,423,1270,449"/>
+<area shape="rect" id="node33" href="$d7/de7/_byte_stream_8h.html" title=" " alt="" coords="1805,266,1931,293"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1971,348,2029,375"/>
+</map>

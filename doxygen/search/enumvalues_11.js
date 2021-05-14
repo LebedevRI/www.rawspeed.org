@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['r0_4309',['R0',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958a4da6d0062d7751506299bfb622e3305a',1,'rawspeed::FujiDecompressor']]],
+  ['r1_4310',['R1',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958a49b7d6cd622c22774412d12423ae9bac',1,'rawspeed::FujiDecompressor']]],
+  ['r2_4311',['R2',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958aa7f0cf9325d502d807e4160979f4f62f',1,'rawspeed::FujiDecompressor']]],
+  ['r3_4312',['R3',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958ad0899d2938a7e8bb10f29156ccc4855f',1,'rawspeed::FujiDecompressor']]],
+  ['r4_4313',['R4',['../de/d5f/classrawspeed_1_1_fuji_decompressor.html#a360df1023dd912aef30bd44340bd4958af945be7e324b9c8a2eeb73ad1d5acd62',1,'rawspeed::FujiDecompressor']]],
+  ['rawdatauniqueid_4314',['RAWDATAUNIQUEID',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a6aad3524ac894699c1a8713bb6f2b973',1,'rawspeed']]],
+  ['rawimagedigest_4315',['RAWIMAGEDIGEST',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a3d2cf9e5502301cd3577d5f4812cf5b7',1,'rawspeed']]],
+  ['reductionmatrix1_4316',['REDUCTIONMATRIX1',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ae5cbf1b479c524f3316173b4e4beb477',1,'rawspeed']]],
+  ['reductionmatrix2_4317',['REDUCTIONMATRIX2',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472aab7da25572e9e02daad622cb0e583ff7',1,'rawspeed']]],
+  ['referenceblackwhite_4318',['REFERENCEBLACKWHITE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a6d94edb3ad43efaae43905e3860e8136',1,'rawspeed']]],
+  ['relatedimagefileformat_4319',['RELATEDIMAGEFILEFORMAT',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472af0115a87a7d7a5cea676848a951aec27',1,'rawspeed']]],
+  ['relatedimagelength_4320',['RELATEDIMAGELENGTH',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a26c7f5decdc11f7675abcb6bfa1142bc',1,'rawspeed']]],
+  ['relatedimagewidth_4321',['RELATEDIMAGEWIDTH',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ad997666e9018d921a4a69f328d128271',1,'rawspeed']]],
+  ['relatedsoundfile_4322',['RELATEDSOUNDFILE',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ad998e3953291be27b4677c70c533cfcc',1,'rawspeed']]],
+  ['resolutionunit_4323',['RESOLUTIONUNIT',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472af0af7a0579767ff676efa8b6dfaa041c',1,'rawspeed']]],
+  ['rotation_4324',['ROTATION',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ad58d094d7eccb6bfad15727ca52bb0a9',1,'rawspeed']]],
+  ['rowinterleavefactor_4325',['ROWINTERLEAVEFACTOR',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472a1893431dc409aec59e6cf9dc9a21f973',1,'rawspeed']]],
+  ['rowsperstrip_4326',['ROWSPERSTRIP',['../de/dc3/namespacerawspeed.html#a36563c6812e7c7c2d7cdf04c0eea2472ae3ec81191f48b907c756c944bc23fe2a',1,'rawspeed']]]
+];
